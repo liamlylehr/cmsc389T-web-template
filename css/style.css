@@ -9,6 +9,9 @@
 html, body {
     margin: 0;
     padding: 0;
+
+    height: 100%;
+    background: linear-gradient(to bottom right, rgb(255, 95, 95), 30% ,white);
 }
 
 .nav ul {
@@ -43,8 +46,10 @@ html, body {
 }
 
 .main-header {
-    background-color: red;
-    background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg');
+    
+    background-color: rgba(200,0,0);
+    /* background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg'); */
+    background-image: url('https://images.wallpapersden.com/image/download/virtual-reality-technology_amxuaWyUmZqaraWkpJRmbmdlrWZlbWU.jpg');
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -78,7 +83,6 @@ html, body {
 
 .content-section {
     margin: 1em;
-
 }
 
 .container {
@@ -101,8 +105,8 @@ html, body {
 
 .about-prof-image {
     float: left;
-    height: 175px;
-    width: 190px;
+    height: 200px;
+    width: 200px;
     margin: 30px;
     border-radius: 50%;
 }
@@ -118,8 +122,6 @@ html, body {
     position: fixed;
     bottom: 0;
     width: 100%;
-
-
 }
 
 .main-footer-container {
