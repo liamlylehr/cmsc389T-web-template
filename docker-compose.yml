@@ -3,6 +3,12 @@ version: '3'
 services:
   nodejs:
     #fill out the configuration here
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: liam_website
+    container_name: liam_website
+    restart: unless-stopped
     networks:
       - app-network
   
@@ -27,8 +33,8 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      #fill out your absolute path to your folder here
-      device: /absolute/path/to/web/template/folder
+      #fill out your absolute path to your folder here [DONE]
+      device: /Users/liamylehr/UMD/Fall21/CMSC389T/p5/cmsc389T-web-template
       o: bind
 
 networks:
