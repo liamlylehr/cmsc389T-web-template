@@ -49,7 +49,7 @@ html, body {
 .main-header {
     
     /* background-color: rgba(200,0,0); */
-    background: linear-gradient(to right, transparent, rgb(106, 255, 106), yellow),
+    background: linear-gradient(to right, transparent, rgb(79, 202, 79), rgb(228, 228, 70) 85%),
       url("https://wallpaperset.com/w/full/5/4/f/225692.jpg");
     /* background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg'); */
     /* background-image: url('https://images.wallpapersden.com/image/download/virtual-reality-technology_amxuaWyUmZqaraWkpJRmbmdlrWZlbWU.jpg'); */
@@ -124,7 +124,7 @@ html, body {
     /* background-color: red;
     color: white; */
 
-    background: linear-gradient(to left, transparent, rgb(106, 255, 106),yellow),
+    background: linear-gradient(to left, transparent, rgb(79, 202, 79),rgb(228, 228, 70)),
     url("https://wallpaperset.com/w/full/5/4/f/225692.jpg");
 
     position: fixed;
