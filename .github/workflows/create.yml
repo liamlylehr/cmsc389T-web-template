@@ -10,8 +10,8 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }]
-          username: $f{ secrets.USERNAME }}
-          password: ${{ secrets. PASSWORD }]
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets. PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
             ssh-keyscan -H github.com >> ~${{ secrets.USERNAME }}/.ssh/known_hosts
